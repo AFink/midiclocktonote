@@ -35,7 +35,7 @@ void setup() {
 
   cp5 = new ControlP5(this);
 
-  myBus = new MidiBus(this, -1, "loopMIDI Port"); 
+  myBus = new MidiBus(this, -1, -1); 
 
   myMidiClockBus = new MidiBus(this, -1, -1); 
 
